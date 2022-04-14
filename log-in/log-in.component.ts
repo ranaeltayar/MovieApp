@@ -26,9 +26,9 @@ export class LogInComponent implements OnInit {
   OnSubmit(form:NgForm){
   if(form.value.email == this.users[0].email && form.value.password == this.users[0].password ){
     this.userservice.login(); 
-    console.log('kiko');
+    ///console.log('kiko');
     this.router.navigate(["/catalog"], {relativeTo: this.route});
-     console.log('sabarnayarab');
+     //console.log('ssss');
     
    }
 
